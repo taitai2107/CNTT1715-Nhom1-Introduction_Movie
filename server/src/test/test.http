@@ -1,0 +1,21 @@
+POST http://localhost:8081/api/v1/auth/create/user
+Content-Type: application/json
+
+{
+  "email": "nguyencongkhanhtai@gmail.com",
+  "username": "nguyencongkhanhtai",
+  "password": "123123"
+}
+
+###
+
+POST http://localhost:8081/api/v1/auth/login/user
+Content-Type: application/json
+
+{
+  "valueInput": "nguyencongkhanhtai@gmail.com",
+  "password": "123123"
+}
+
+###
+GET http://localhost:8081/api/v1/auth/getAll
