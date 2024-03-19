@@ -1,0 +1,66 @@
+{
+  "hoat_hinh": [
+    {
+      "title": "Frozen",
+      "director": "Chris Buck, Jennifer Lee",
+      "year": 2013,
+      "rating": 7.4,
+      "img":"https://imagev3.vietnamplus.vn/w1000/Uploaded/2024/zatmzy/2019_11_28/frozen2header_1.jpg.webp"
+    },
+    {
+      "title": "Toy Story",
+      "director": "John Lasseter",
+      "year": 1995,
+      "rating": 8.3,
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR6lwv8AHDlZ-oebTEvK0aPppnt1Tu-T6alfpkzfsKABZ1optgnCUqpFj2wqC5SpVaDzA&usqp=CAU"
+    },
+    {
+      "title": "Finding Nemo",
+      "director": "Andrew Stanton",
+      "year": 2003,
+      "rating": 8.1,
+      "img":"https://ew.com/thmb/ktHoGeTPtHG6--QlbqoqTspFQw8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/finding-nemo-6f0fc9acde924456bf7d2db1abdaa32a.jpg"
+    }
+  ],
+  "hanh_dong": [
+    {
+      "title": "Die Hard",
+      "director": "John McTiernan",
+      "year": 1988,
+      "rating": 8.2
+      
+    },
+    {
+      "title": "Mad Max: Fury Road",
+      "director": "George Miller",
+      "year": 2015,
+      "rating": 8.1
+    },
+    {
+      "title": "The Dark Knight",
+      "director": "Christopher Nolan",
+      "year": 2008,
+      "rating": 9.0
+    }
+  ],
+  "hai_huoc": [
+    {
+      "title": "The Hangover",
+      "director": "Todd Phillips",
+      "year": 2009,
+      "rating": 7.7
+    },
+    {
+      "title": "Superbad",
+      "director": "Greg Mottola",
+      "year": 2007,
+      "rating": 7.6
+    },
+    {
+      "title": "Anchorman: The Legend of Ron Burgundy",
+      "director": "Adam McKay",
+      "year": 2004,
+      "rating": 7.2
+    }
+  ]
+}
