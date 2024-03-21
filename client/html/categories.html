@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/category.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="topnav">
+      <div class="link">
+        <img src="./img/download.jpg" height="48px" width="70px" alt="" />
+        <a id="home" class="" href="index.html" onclick="changeClass(this)"
+          >Trang Chủ</a
+        >
+        <a
+          id="contact"
+          class="active"
+          href="categories.html"
+          onclick="changeClass(this)"
+          >Thể loại</a
+        >
+        <a id="news" href="detail.html" onclick="changeClass(this)">News</a>
+        <a id="new" href="#" onclick="changeClass(this)">Phim mới</a>
+        <a id="contact" href="#" onclick="changeClass(this)">Giới Thiệu</a>
+      </div>
+    </div>
+    <div class="banner"></div>
+    <div class="anime">
+      <h1>Anime</h1>
+    </div>
+
+    <section class="top-rated">
+      <div class="container">
+        <div class="wrapper">
+          <div class="gallery">
+            <div class="image" data-type="hollywood">
+              <span
+                ><img src="../html/img/anime/odd-taxi-pops-vn.jpg" alt=""
+              /></span>
+            </div>
+            <div class="image" data-type="anime">
+              <span
+                ><img src="../html/img/anime/top-anime-1.jpg" alt=""
+              /></span>
+            </div>
+            <div class="image" data-type="anime">
+              <span
+                ><img src="../html/img/anime/top-anime-2.jpg" alt=""
+              /></span>
+            </div>
+            <div class="image" data-type="new_movie">
+              <span
+                ><img src="../html/img/anime/top-anime-4.jpg" alt=""
+              /></span>
+            </div>
+            <div class="image" data-type="anime">
+              <span
+                ><img
+                  src="../html/img/anime/Demon-Slayer-la-series-anime-mang-nhieu-yeu-to-ly-ky-kich-tinh.jpg"
+                  alt=""
+              /></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="anime">
+      <h1>Phim mới</h1>
+    </div>
+
+    <section class="top-rated">
+      <div class="container">
+        <div class="wrapper">
+          <div class="gallery">
+            <div class="image" data-type="hollywood">
+              <span
+                ><img src="../html/img/index/download (1).jfif" alt=""
+              /></span>
+            </div>
+            <div class="image" data-type="anime">
+              <span
+                ><img src="../html/img/index/download (2).jfif" alt=""
+              /></span>
+            </div>
+            <div class="image" data-type="anime">
+              <span
+                ><img src="../html/img/index/download (3).jfif" alt=""
+              /></span>
+            </div>
+            <div class="image" data-type="new_movie">
+              <span
+                ><img src="../html/img/index/download (5).jfif" alt=""
+              /></span>
+            </div>
+            <div class="image" data-type="anime">
+              <span
+                ><img src="../html/img/index/download (4).jfif" alt=""
+              /></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="anime">
+      <h1>Phim chiếu rạp</h1>
+    </div>
+
+    <section class="top-rated">
+      <div class="container">
+        <div class="wrapper">
+          <div class="gallery">
+            <div class="image" data-type="hollywood">
+              <span
+                ><img src="../html/img/index/images (1).jfif" alt=""
+              /></span>
+            </div>
+            <div class="image" data-type="anime">
+              <span
+                ><img src="../html/img/index/images (2).jfif" alt=""
+              /></span>
+            </div>
+            <div class="image" data-type="anime">
+              <span
+                ><img src="../html/img/index/images (3).jfif" alt=""
+              /></span>
+            </div>
+            <div class="image" data-type="new_movie">
+              <span
+                ><img src="../html/img/index/images (4).jfif" alt=""
+              /></span>
+            </div>
+            <div class="image" data-type="anime">
+              <span
+                ><img src="../html/img/index/images (5).jfif" alt=""
+              /></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="bottom-nav">
+      <div class="bottom-nav-item">Contact:(+84)832597839</div>
+      <div class="bottom-nav-item">NGUYENCONGKHANHTAI</div>
+      <div class="bottom-nav-item">BUITHINHIEN</div>
+      <div class="bottom-nav-item">NGUYENTHIHAI</div>
+    </div>
+
+    <script>
+      function changeClass(element) {
+        var links = document
+          .getElementsByClassName("topnav")[0]
+          .getElementsByTagName("a");
+        for (var i = 0; i < links.length; i++) {
+          links[i].classList.remove("active");
+        }
+        element.classList.add("active");
+      }
+    </script>
+  </body>
+</html>
