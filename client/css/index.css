@@ -345,3 +345,6 @@ body {
 .gallery .image.show {
   animation: animate 0.4s ease;
 }
+.null {
+  /*  delete commit */
+}
